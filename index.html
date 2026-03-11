@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="no">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Telefonnummerrytmesjekk</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="page">
+      <h1>Sjekk rytmen</h1>
+
+      <section class="input-block">
+        <div class="input-wrapper">
+          <input
+            id="phone-input"
+            name="phone"
+            type="text"
+            inputmode="numeric"
+            autocomplete="off"
+            maxlength="11"
+          />
+          <div id="phone-overlay" class="phone-overlay" aria-hidden="true"></div>
+        </div>
+      </section>
+
+      <div class="result-wrapper">
+        <section id="result" class="card result hidden" aria-live="polite">
+          <h3>Hvorfor?</h3>
+          <ul id="rules-list" class="rules"></ul>
+        </section>
+      </div>
+    </main>
+
+    <script src="build/code.js"></script>
+  </body>
+</html>

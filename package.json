@@ -1,0 +1,12 @@
+{
+    "name": "numbers",
+    "private": true,
+    "version": "1.0.0",
+    "scripts": {
+        "build": "tsc --project tsconfig.json",
+        "start": "npm run build && npx serve ."
+    },
+    "devDependencies": {
+        "typescript": "^5.8.2"
+    }
+}

@@ -32,7 +32,7 @@ body {
 .page {
   min-height: 100vh;
   display: grid;
-  grid-template-rows: 1fr auto 1fr;
+  grid-template-rows: 1fr auto 2fr;
   justify-items: center;
   padding: 3rem;
   gap: 3rem;
